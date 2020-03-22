@@ -43,7 +43,6 @@ class SecondActivity : AppCompatActivity() {
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-
             holder?.textView?.text = convertToString( (position+1).toString() )
 
 
@@ -69,7 +68,6 @@ class SecondActivity : AppCompatActivity() {
             "тысяча",
             "одна", "две", "тысяч", "тысячи", "миллион"
         )
-
         public fun convertToString(number: String) : String
         {
             val length = number.length
