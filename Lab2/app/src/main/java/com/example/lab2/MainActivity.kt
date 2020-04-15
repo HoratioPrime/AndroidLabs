@@ -1,6 +1,5 @@
 package com.example.lab2
 
-import android.app.ProgressDialog
 import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
@@ -11,7 +10,6 @@ import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var pDialog:ProgressDialog
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

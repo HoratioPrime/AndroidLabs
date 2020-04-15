@@ -17,7 +17,7 @@ class SecondActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         val techList = intent.getSerializableExtra("techList") as List<Technology>
         recyclerView.adapter = Adapter( techList )
-
+        
     }
 
 }

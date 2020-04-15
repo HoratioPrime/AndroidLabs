@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import java.net.HttpURLConnection
 import java.net.URL
 
-
 class Adapter(private val technologies: List<Technology>): RecyclerView.Adapter<Adapter.ViewHolder>(){
 
     var downloadedImages = mutableMapOf<String, Bitmap?>()
@@ -86,6 +85,4 @@ class Adapter(private val technologies: List<Technology>): RecyclerView.Adapter<
             super.onPostExecute(result)
         }
     }
-
-
 }
